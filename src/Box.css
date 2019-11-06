@@ -1,0 +1,16 @@
+.box, .box-drag {
+    width: 10vw;
+    height: 10vh;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    user-select: none;
+    transition: box-shadow 0.25s ease-out, transform 0.25s ease-out;
+}
+
+.draggable {
+    box-shadow: 2px 5px 3px #ccc;
+    position: relative;
+    z-index: 999;
+    transition: box-shadow 0.25s ease-out;
+}
